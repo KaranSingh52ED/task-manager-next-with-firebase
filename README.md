@@ -37,7 +37,7 @@ npm run dev
 
 **App:**
 
-- Next JS 13 (App Router, Server Components, Client Components)
+- Next JS 14 (App Router, Server Components, Client Components)
 - Tailwind CSS
 - Firebase
 
