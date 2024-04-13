@@ -27,15 +27,12 @@ npm run dev"
 - Option to delete task
 - much more
 
+
+**Language Used:**
+
+- Typescript
 - Next JS 14 (App Router, Server Components, Client Components)
 - Tailwind CSS
 - CSS
 - Firebase
 
-**Language Used:**
-
-- Typescript
-
-## Feedback
-
-If you have any feedback or you want to give me some tips related to development or even documentation, please reach out to me at iamsomraj@gmail.com.
