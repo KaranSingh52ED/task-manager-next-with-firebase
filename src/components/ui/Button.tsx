@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Icons } from '../Icons';
 
 const buttonVariants = cva(
-  'active:scale-95 inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 disabled:opacity-50 dark:focus:ring-slate-400 disabled:pointer-events-none dark:focus:ring-offset-slate-900',
+  'active:scale-95 inline-flex items-center  divide-y  ring-1 ring-gray-500 shadow-inner shadow-blue-500 bg-green-100 justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 disabled:opacity-50 dark:focus:ring-slate-400 disabled:pointer-events-none dark:focus:ring-offset-slate-900',
   {
     variants: {
       variant: {

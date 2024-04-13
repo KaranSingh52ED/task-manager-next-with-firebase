@@ -8,13 +8,13 @@ const SignUp = () => {
       <div className='flex flex-col space-y-2 text-center'>
         <h1 className='text-2xl font-semibold tracking-tight'>Sign Up</h1>
         <p className='mx-auto max-w-xs text-sm'>
-          By continuing, you are setting up a Task Planner Pro account and agree
+          By continuing, you are setting up a Task Manager account and agree
           to our User Agreement and Privacy Policy.
         </p>
       </div>
       <UserAuthForm mode='sign-up' />
       <p className='px-8 text-center text-sm text-muted-foreground'>
-        Already a Task Planner Pro?{' '}
+        Already have Task Maneger Pro ?{' '}
         <Link
           href='/sign-in'
           className='hover:text-brand text-sm underline underline-offset-4'
