@@ -5,7 +5,10 @@ Built with the Next.js App Router, TypeScript, Tailwind and Firebase
 
 "Please use the following commands to install the dependencies in the main directory :
 
-npm i
+npm i 
+
+or
+
 npm i npm@latest
 
 
