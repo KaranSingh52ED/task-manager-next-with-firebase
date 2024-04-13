@@ -33,8 +33,6 @@ To run the code, utilize the command:
 
 npm run dev
 
-Create these environment variables, save them in root folder. File name can be `.env.local`.
-
 ## Tech Stack
 
 **App:**
