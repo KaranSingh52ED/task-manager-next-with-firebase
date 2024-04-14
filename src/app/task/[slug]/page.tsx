@@ -19,21 +19,23 @@ const TaskEditPage = ({ params: { slug } }: TaskEditPageProps) => {
   const { user } = useAuthContext();
   const router = useRouter();
 
-  const queryKey = { type: 'task', slug: slug };
+  const queryKey = ['task', slug];
 
-  const { isLoading, error, data } = useQuery({
-    queryKey: queryKey,
-    queryFn: async () => {
+  const { isLoading, error, data } = useQuery(
+    queryKey,
+    async () => {
       if (!user?.uid || !slug) {
         return;
       }
       return await getUserTask(slug, user.uid);
     },
-    onError: () => {
-      toast.error('There was an error. Could not fetch task.');
-      router.push(`/home`);
-    },
-  });
+    {
+      onError: () => {
+        toast.error('There was an error. Could not fetch task.');
+        router.push(`/home`);
+      },
+    }
+  );
 
   React.useEffect(() => {
     if (user === null) router.push('/sign-in');
