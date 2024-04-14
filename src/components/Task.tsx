@@ -67,7 +67,7 @@ const Task = (props: Props) => {
   });
 
   return (
-    <div className='divide-y rounded-lg  ring-1 ring-gray-500 shadow-xl shadow-red-400 bg-green-100'>
+    <div className=' divide-y bg-gradient-to-br m-3 from-yellow-200 to-gray-100 ring-2 ring-blue-300 shadow-2xl shadow-green-300  rounded-xs border bg-white'>
       <div className='flex flex-col gap-2 p-4'>
         <div className='flex items-center justify-between gap-2'>
           <Link

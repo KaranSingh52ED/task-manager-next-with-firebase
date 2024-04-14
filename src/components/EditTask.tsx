@@ -80,7 +80,7 @@ const EditTask = (props: Props) => {
   });
 
   return (
-    <div className=' divide-y rounded-lg bg-white ring-2 ring-blue-500 shadow-inner'>
+    <div className='divide-y rounded-lg border bg-white'>
       <div className='flex flex-col gap-2 p-4'>
         <div>
           <p className='text-lg font-medium'>Title</p>

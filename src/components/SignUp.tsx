@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const SignUp = () => {
   return (
-    <div className='container mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[400px]'>
+    <div className='container mx-auto flex w-full p-5 flex-col justify-center space-y-6  divide-y rounded-lg bg-gradient-to-br from-red-300 to-blue-300 ring-2 ring-blue-500 shadow-inner shadow-red-300  sm:w-[400px]'>
       <div className='flex flex-col space-y-2 text-center'>
         <h1 className='text-2xl font-semibold tracking-tight'>Sign Up</h1>
         <p className='mx-auto max-w-xs text-sm'>
@@ -14,7 +14,7 @@ const SignUp = () => {
       </div>
       <UserAuthForm mode='sign-up' />
       <p className='px-8 text-center text-sm text-muted-foreground'>
-        Already have Task Maneger Pro ?{' '}
+        Already a Task Planner Pro?{' '}
         <Link
           href='/sign-in'
           className='hover:text-brand text-sm underline underline-offset-4'
